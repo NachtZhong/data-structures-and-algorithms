@@ -2,7 +2,11 @@ package com.nacht.data_structures.basic;
 
 import lombok.Data;
 
-/* 二叉树节点类 */
+/**
+ * 二叉树节点类
+ * @author Nacht
+ * Created on 2023/11/10 13:16
+ */
 @Data
 public class TreeNode {
     /**

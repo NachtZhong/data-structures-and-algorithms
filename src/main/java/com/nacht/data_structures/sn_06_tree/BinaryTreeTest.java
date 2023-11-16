@@ -4,6 +4,8 @@ import com.nacht.data_structures.basic.TreeNode;
 
 import java.util.*;
 
+import static com.nacht.util.PrettyPrintUtil.printBinaryTree;
+
 /**
  * @author Nacht
  * Created on 2023/11/14 14:35
@@ -19,7 +21,7 @@ public class BinaryTreeTest {
          *        /   \   /  \
          *      4     5  6    7
          */
-        TreeNode root = new TreeNode(1);
+        TreeNode root = new TreeNode(525234231);
         TreeNode node2 = new TreeNode(2);
         TreeNode node3 = new TreeNode(3);
         TreeNode node4 = new TreeNode(4);
@@ -32,6 +34,7 @@ public class BinaryTreeTest {
         node2.setRight(node5);
         node3.setLeft(node6);
         node3.setRight(node7);
+        printBinaryTree(root);
         System.out.println(bfsTraverse(root));
         System.out.println(preOrderTraversal(root, new ArrayList<>()));
         System.out.println(inOrderTraversal(root, new ArrayList<>()));
