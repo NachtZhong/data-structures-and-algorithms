@@ -1,5 +1,7 @@
 package com.nacht.data_structures.sn_04_queue;
 
+import com.nacht.data_structures.basic.Node;
+
 /**
  * 基于链表实现的队列
  * @author Nacht

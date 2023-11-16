@@ -1,5 +1,7 @@
 package com.nacht.data_structures.sn_02_linked_list;
 
+import com.nacht.data_structures.basic.Node;
+
 /**
  * @author Nacht
  * Created on 2023/11/10 13:16

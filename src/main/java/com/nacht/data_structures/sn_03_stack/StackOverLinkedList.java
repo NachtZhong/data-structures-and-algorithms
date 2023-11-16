@@ -1,5 +1,6 @@
 package com.nacht.data_structures.sn_03_stack;
 
+import com.nacht.data_structures.basic.Node;
 import lombok.Data;
 
 /**

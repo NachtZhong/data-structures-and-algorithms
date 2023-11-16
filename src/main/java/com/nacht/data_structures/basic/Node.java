@@ -1,4 +1,4 @@
-package com.nacht.data_structures.sn_03_stack;
+package com.nacht.data_structures.basic;
 
 /**
  * @author Nacht
@@ -28,5 +28,13 @@ public class Node<V> {
     public Node<V> setNext(Node<V> next) {
         this.next = next;
         return this.next;
+    }
+
+    @Override
+    public String toString() {
+        return "Node{" +
+                "value=" + value +
+                ", next=" + next +
+                '}';
     }
 }

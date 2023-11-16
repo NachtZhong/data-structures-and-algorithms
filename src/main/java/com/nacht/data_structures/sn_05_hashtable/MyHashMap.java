@@ -1,5 +1,6 @@
 package com.nacht.data_structures.sn_05_hashtable;
 
+import com.nacht.data_structures.basic.Node;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
