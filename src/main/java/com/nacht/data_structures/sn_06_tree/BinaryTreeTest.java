@@ -21,7 +21,7 @@ public class BinaryTreeTest {
          *        /   \   /  \
          *      4     5  6    7
          */
-        TreeNode root = new TreeNode(525234231);
+        TreeNode root = new TreeNode(1);
         TreeNode node2 = new TreeNode(2);
         TreeNode node3 = new TreeNode(3);
         TreeNode node4 = new TreeNode(4);
