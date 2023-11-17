@@ -35,8 +35,6 @@ public class BinarySearchTest {
         int result = -1;
         int i = 0, j = nums.length - 1;
         while(i <= j){
-//            System.out.format("searching %d - %d", i, j);
-//            System.out.println();
             int middle = i + (j - i) / 2;
             if(nums[middle] == target){
                 result = middle;
